@@ -8,6 +8,8 @@ Rather than relying on reactive manual review, this engine utilizes a high-throu
 ## The "Reflex Arc" Architectural Philosophy
 In this system, we model digital content moderation after the biological **Reflex Arc** to ensure speed, reliability, and tiered cognitive processing. 
 
+<img width="640" height="492" alt="reflexarc" src="https://github.com/user-attachments/assets/110add36-45cc-4fc4-b0f6-f712d95a5feb" />
+
 **Note on Visual Framework:** The conceptual architecture (the "Reflex Arc" diagram) is embedded directly within the notebook, illustrating the pathway from Sensory Input (Ingestion) to Integration (Governance) and finally Motor Response (Enforcement).
 
 The system features:
