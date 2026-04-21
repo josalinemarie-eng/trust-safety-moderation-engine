@@ -1,7 +1,7 @@
 # Product Trust: Automated Content Integrity Engine
 
 ## Executive Summary
-This repository represents a rapid prototype developed to operationalize concepts from obtaining the **Google Generative AI Leader Certification**. The project bridges the gap between theoretical AI governance frameworks and practical, high-throughput pipeline architecture. By applying core principles of AI leadership—specifically in the domains of model reliability and defensive systems—this prototype demonstrates how to move from "AI-enabled" to "AI-governed" platform integrity.
+This repository represents a rapid prototype developed to operationalize concepts from the **Google Generative AI Leader Certification**. The project bridges the gap between theoretical AI governance frameworks and practical, high-throughput pipeline architecture. By applying core principles of AI leadership—specifically in the domains of model reliability and defensive systems—this prototype demonstrates how to move from "AI-enabled" to "AI-governed" platform integrity.
 
 Rather than relying on reactive manual review, this engine utilizes a high-throughput architecture designed to handle routine moderation automatically while surfacing high-complexity "edge cases" for human intervention.
 
