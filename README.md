@@ -16,9 +16,6 @@ This project was developed within the Google Cloud ecosystem, utilizing managed 
     * **IAM (Identity and Access Management):** Implemented to adhere to the principle of least privilege, ensuring secure, role-based access to the data pipeline—a core requirement for any Trust & Safety architecture.
 
 ## The "Reflex Arc" Architectural Philosophy
-In this system, we model digital content moderation after the biological **Reflex Arc** to ensure speed, reliability, and tiered cognitive processing.
-
-## The "Reflex Arc" Architectural Philosophy
 In this system, we model digital content moderation after the biological **Reflex Arc** to ensure speed, reliability, and tiered cognitive processing. 
 
 <img width="640" height="492" alt="reflexarc" src="https://github.com/user-attachments/assets/110add36-45cc-4fc4-b0f6-f712d95a5feb" />
