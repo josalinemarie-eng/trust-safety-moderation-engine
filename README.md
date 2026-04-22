@@ -5,6 +5,18 @@ This repository represents a rapid prototype developed to operationalize concept
 
 Rather than relying on reactive manual review, this engine utilizes a high-throughput architecture designed to handle routine moderation automatically while surfacing high-complexity "edge cases" for human intervention.
 
+## 🛠️ Technology Stack
+This project was developed within the Google Cloud ecosystem, utilizing managed services to ensure a scalable, secure, and reproducible development environment.
+
+* **Development Environment:** * **Vertex AI Workbench:** Used for reproducible notebook-based development and rapid prototyping.
+* **AI/ML Infrastructure:**
+    * **Vertex AI (SDK & API):** Employed for model development and inferencing strategies, ensuring the pipeline is built on enterprise-grade infrastructure.
+* **Security & Governance:**
+    * **IAM (Identity and Access Management):** Implemented to adhere to the principle of least privilege, ensuring secure, role-based access to the data pipeline—a core requirement for any Trust & Safety architecture.
+
+## The "Reflex Arc" Architectural Philosophy
+In this system, we model digital content moderation after the biological **Reflex Arc** to ensure speed, reliability, and tiered cognitive processing.
+
 ## The "Reflex Arc" Architectural Philosophy
 In this system, we model digital content moderation after the biological **Reflex Arc** to ensure speed, reliability, and tiered cognitive processing. 
 
