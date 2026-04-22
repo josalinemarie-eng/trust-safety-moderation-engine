@@ -35,5 +35,17 @@ This project was designed to demonstrate:
 * **Defensive Programming:** Implementation of quality gates and data validation.
 * **Operational Efficiency:** Managing the trade-off between automated enforcement and human reviewer burnout.
 
+## 🏗️ Future State: Production Architecture
+To scale this prototype into a production-grade Content Integrity system, the logic is designed to migrate to an event-driven GCP ecosystem:
+
+| Pipeline Phase | GCP Component | Strategic Purpose |
+| :--- | :--- | :--- |
+| **Ingestion** | **Pub/Sub** | Asynchronous message queuing to handle massive, high-velocity UGC streams. |
+| **Trigger** | **Cloud Functions** | Serverless execution to trigger the triage engine upon content arrival. |
+| **Inference** | **Vertex AI** | Scalable hosting for the classification model, enabling rapid inference. |
+| **Governance/Audit** | **BigQuery** | Centralized logging of all moderation decisions for long-term policy auditability. |
+| **Drift Monitoring** | **Vertex AI Monitoring** | Automated tracking of model performance to detect concept drift in real-time. |
+| **HITL Routing** | **Cloud Tasks** | Routing "uncertain" content to a specialized review dashboard for steward validation. |
+
 ---
 *Created as part of an accelerated Trust & Safety prototyping project. Focused on operationalizing AI governance principles.*
