@@ -8,7 +8,6 @@ Rather than relying on reactive manual review, this engine utilizes a high-throu
 ## 🛠️ Technology Stack
 This project was developed within the Google Cloud ecosystem, utilizing managed services to ensure a scalable, secure, and reproducible development environment.
 
-* **Development Environment:** *
 * **Vertex AI Workbench:** Used for reproducible notebook-based development and rapid prototyping.
 * **AI/ML Infrastructure:**
     * **Vertex AI (SDK & API):** Employed for model development and inferencing strategies, ensuring the pipeline is built on enterprise-grade infrastructure.
